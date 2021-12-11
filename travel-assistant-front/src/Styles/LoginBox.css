@@ -1,0 +1,20 @@
+/*#username-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#password-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}*/
+
+.input-label {
+    margin: 10px;
+}
+
+.input-box {
+    margin: 10px;
+    width: 50%;
+}

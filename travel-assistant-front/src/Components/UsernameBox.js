@@ -1,10 +1,11 @@
+import '../Styles/UsernameBox.css';
 
 const UsernameBox = () => {
     return(
-    <>
-    <label htmlFor='username'>Username:</label>
-    <input type='text' placeholder='your username' name='username'></input>
-    </>
+    <div id='username-input'>
+    <label htmlFor='username' className='input-label'>Username/Email:</label>
+    <input type='text' placeholder='your username or email' name='username' className='input-box'></input>
+    </div>
     )
 }
 

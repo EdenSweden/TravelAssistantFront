@@ -1,14 +1,15 @@
 import '../Styles/LoginPage.css';
-import UsernameBox from 'UsernameBox.js';
+import LoginBox from './LoginBox';
+import Register from './Register';
 
 const LoginPage = () => {
 
 return(<div id='bg'>
+    <h1 id='front-page-header'>Trip planning, made simpler.</h1>
     <div id='login-box'>
-        {/*<UsernameBox />*/}
-    {/*<PasswordBox /> 
-    <reCAPTCHA />*/}
-        </div>
+        <LoginBox />
+    </div>
+    <Register />
 </div>)
 }
 export default LoginPage;
